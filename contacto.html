@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilo.css">
+
+</head>
+
+<body class="body">
+    
+    <header class="header">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Villagol</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Personajes.html">Camisetas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/">Instagram</a></li>
+                  <li><a class="dropdown-item" href="./contacto.html">Contactanos</a></li>
+                  <li><a class="dropdown-item" href="#">Realizar un reporte</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ingresar producto" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+<section class="Contacto">
+
+    <h2>Contacto</h2>
+
+  <form action="https://formspree.io/f/mqkroonz" method="post" class="formulario">
+
+
+    <fieldset class="fieldset">
+
+        <legend class="legend">Informacion del contacto </legend>
+
+        <div class="form_group">
+     <label for="Nombre" class="label">Nombre </label>
+    <input type="text" class="input" name="Nombre" id="Nombre" required>
+</div>
+
+<div class="form_group">
+     <label for="Apellido" class="label"> Apellido</label>
+    <input type="text" class="input" name="Apellido" id="Apellido" required>
+</div>
+
+<div class="form_group">
+     <label for="Clave" class="label">Contraseña</label>
+    <input type="password" class="input" name="Nombre" id="Nombre" required>
+</div>
+
+<div class="form_group">
+     <label for="Edad" class="label">Edad</label>
+    <input type="number" class="input" name="Nombre" id="Nombre" required min="5" max="100">
+</div>
+
+<div class="form_group">
+    <label for="Mensaje" class="label">Mensaje</label>
+    <textarea name="Mensaje" id="Mensaje" rows="2" cols="20" minlength="10" maxlength="200"> </textarea>
+</div>
+
+
+<h3> Selecciona tu pais</h3>
+
+    <div class="form_group">
+
+        <label for="Pais" class="label">Selecciona tu Pais</label>
+        <select name="Pais" id="Pais">
+
+<option value="A"> Argentina </option>
+<option value="C"> Chile </option>
+<option value="B"> Bolivia  </option>
+
+</select>
+
+</div> 
+
+<h3>Colores </h3>
+
+<div class="form_group">
+
+ <p for="Colores"> Selecciona tu color </p>
+
+
+ <input type="radio" name="color" value="rojo">
+ <label for="rojo" class="label">Rojo</label>
+
+ <input type="radio" name="color" value="amarillo">
+ <label for="amarillo" class="label">Amarillo</label>
+
+ <input type="radio" name="color" value="azul">
+ <label for="azul" class="label">Azul</label>
+
+</div>
+
+<h3>Talle</h3>
+
+ <div class="form_group">
+ <input type="checkbox" name="talle">
+ <label for="S" class="label">Talle S</label>
+
+ <input type="checkbox" name="talle">
+ <label for="M" class="label">Talle M</label>
+
+ <input type="checkbox">
+ <label for="L" class="label">Talle L</label>
+
+
+
+</div>
+
+<div class="form_group">
+
+   <h3> Ingresa un sitio web </h3> 
+<input type="url" name="sitioweb" pattern="https?://.+" title="Por favor, Ingrese una URL valida">
+
+</div>
+</fieldset>
+
+
+
+<input type="submit" class="submit-enviar" value="Enviar formulario">
+
+
+
+
+
+
+
+</form>
+
+
+
+</section>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,511 @@
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.body {
+    background-color: rgba(201, 198, 198, 0.685);
+    display: flex;
+    flex-direction: column
+  }
+
+  /* Pagina principal de venta de camisetas */
+
+
+
+
+  
+  
+  
+  
+
+
+  .container-fluid{
+
+    padding: 1rem;
+    background-color: rgba(85, 84, 4, 0.74);
+    color: rgb(255, 255, 255)
+ }
+
+
+ .navbar-brand {
+color: #ffffff;
+font-size:2rem;
+text-transform: uppercase;
+}
+
+.nav-item{
+padding: 1rem 4rem;
+color: #ffffff;
+
+}
+
+
+
+
+.nav-link {
+    color: #ffffff;
+}
+
+
+
+.primerMenu{
+    background-image: url( ./Imagenes/2do\ posible\ imagen\ de\ titulo.jpg);
+padding: 5rem;
+image-rendering: optimizeQuality;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 20% 40%;
+
+
+}
+
+
+.carousel-inner{
+
+    padding: 1rem 1rem;
+}
+
+  
+.tituloDePagina {
+    
+    
+    color:  rgb(255, 255, 255);
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 200%;
+    text-rendering: optimizeLegibility;
+    ;
+}
+
+.textoinicial{
+    padding-top: 4rem ;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 120%;
+
+}
+
+    
+    
+
+
+
+
+    .MenuSuperior{
+        background-color: rgba(134, 134, 134, 0);
+        padding: 15px 15px 15px 15px;
+        margin: auto;
+        list-style: none;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .MenuSuperior li { display: inline;
+        padding: 2rem;
+    }
+
+    .MenuSuperior a {text-decoration:none;
+        color: rgb(247, 246, 245);
+        font-weight: 700;
+        font-size: 1.2rem;
+
+    }
+    
+    .Link-abajo a{
+        color: aliceblue;
+        float: right;
+
+    }
+    
+
+
+     .videocontainer{
+
+        display: block
+    
+     }
+
+
+
+
+
+     .Video-principal{
+
+        padding: 1rem 0rem;
+        width: 100%;
+        height: ;
+     }
+
+
+
+
+     .Parrafoinicial{color: rgb(0, 0, 0);}
+
+
+
+
+
+
+
+     .Parrafos{color: rgb(22, 21, 21);
+background-color: rgba(177, 174, 174, 0.603);}
+
+
+
+
+     .BoxModel1{
+
+    padding: 1rem;
+    margin: 1rem;
+    border: solid rgba(192, 167, 27, 0.459);
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.479);
+    background-image: linear-gradient( to left, rgb(85, 84, 4),rgba(85, 84, 4, 0.514)) ;
+    color: #e9e3e3; }
+
+
+
+
+
+     .ContenidoDePaginaPrincipal{
+
+    background-color: rgba(85, 84, 4, 0.74);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+}
+
+ 
+ .card{
+
+    padding: 1rem;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: solid rgba(192, 167, 27, 0.37);
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.479);
+    
+
+
+}     
+
+    
+
+.card img{
+
+
+}
+
+
+
+
+/* 
+.footer {
+    background-color: rgb(85, 84, 4);
+    color: rgb(255, 255, 255);
+    clear: both;
+    padding: 2rem;
+    text-align: center;
+} */
+
+
+
+ 
+
+
+
+
+
+
+.footer {
+    background-color:rgb(85, 84, 4); 
+    color: #fff; 
+    padding: 2rem 0; 
+    text-align: center; 
+  }
+  
+  
+  .footer-content {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+  
+ 
+
+
+  .footer-logo {
+    display: inline-block; 
+    margin-right: 2rem; 
+  }
+  
+  .footer-logo img {
+    width: 12rem; 
+    height: 10rem; 
+  }
+  
+  
+  .footer-navigation {
+    display: inline-block;
+  }
+  
+  .footer-navigation ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .footer-navigation li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+  
+  .footer-navigation a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  .footer-navigation a:hover {
+    color: #007bff; 
+  }
+  
+  
+  .footer-social {
+    display: inline-block; 
+  }
+  
+  .footer-social ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .footer-social li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+  
+  .footer-social a {
+    color: #fff; 
+    transition: color 0.3s ease; 
+  
+  .footer-social a:hover {
+    color: #007bff; 
+  }
+  
+  
+
+  .footer-copyright {
+    margin-top: 20px; 
+    text-align: center; 
+  }
+  
+  .footer-copyright p {
+    font-size: 14px;
+    line-height: 1.5; 
+  }
+ 
+ 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /*Pagina de contenido de camisetas.*/
+
+
+ 
+.TituloDeCamisetas{
+    color:darkblue;
+    text-align: center;
+    border: solid beige;
+    border: none;
+    
+}
+
+
+.Contenido { 
+    background-color: rgba(1, 80, 36, 0.411);
+    padding: 2rem;
+    width: 70%;
+    float: left;
+}
+
+
+.CamisetaImagen{
+    background-color: rgb(64, 77, 119);
+    width: 100%;
+    height: 100%; }
+
+.CamisetaImagen img {
+    width: 100%;
+    box-shadow: 5px 5px rgba(1, 63, 5, 0.815);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sugerencias de camisetas y/o ofertas*/
+
+
+
+
+.Contenido__sugerencias {
+    background-color: rgba(13, 77, 27, 0.671);
+    border: solid 7px rgb(18, 105, 37);
+    line-height: 2rem;
+    padding: 2rem;
+    width: 30%;
+    float: right;
+}
+
+
+.Imagen_sugerenciacamiseta {
+    width: 90%;
+    padding-top: 1rem;
+}
+   
+.Imagen_sugerenciacamiseta img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formulario*/
+
+.Contacto {
+
+
+background-color: rgba(29, 124, 29, 0.233);
+}
+
+
+.formulario {
+
+    width: 60%;
+    margin: 0 auto;
+background-color: rgba(90, 110, 55, 0.404);
+;
+}
+
+.fieldset {
+
+    border: 1px solid #1b1a1a;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.legend {
+    font-weight: bold;
+
+}
+
+.form_group {
+
+    margin-bottom: 1.5rem;
+
+}
+
+.label {
+    display: block;
+
+}
+
+input, textarea, select {
+
+    width: 100%;
+}
+
+.submit-enviar {
+    
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgba(37, 148, 27, 0.377);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+.submit-enviar:hover{
+
+    background-color:rgba(37, 148, 27, 0.692);
+    
+}
+
+.submit-enviar:focus{
+  color: rgb(7, 99, 7) ;
+
+}
+
+
+/* Nosotros */
+
